@@ -1794,6 +1794,7 @@ package css
     padding: 10px;
     margin-bottom: 25px;
     border-radius: 10px;
+    min-height: 380px;
 }
 
 .package-img {
@@ -1830,6 +1831,7 @@ package css
 
 .package-info ul {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
