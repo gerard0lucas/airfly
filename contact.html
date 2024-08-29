@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap">
+  <style>
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .contact_us_green .text-blk {
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .contact_us_green .contactus-head {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .contact_us_green .contactus-subhead {
+      color: #939393;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .contact_us_green input, .contact_us_green textarea {
+      width: 100%;
+      border: 2px solid #a2a2a2;
+      border-radius: 5px;
+      font-size: 16px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .contact_us_green textarea {
+      height: 150px;
+    }
+
+    .contact_us_green .submit-btn {
+      background: #2f8700;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      height: 50px;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .contact_us_green .submit-btn:hover {
+      background-color: #1d5900;
+    }
+
+    .contact_us_green .contact-info {
+      margin-top: 20px;
+    }
+
+    .contact_us_green .contact-info p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .contact_us_green .social-media-links {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .contact_us_green .social-media-links img {
+      width: 30px;
+      height: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .contact_us_green .text-blk.contactus-head {
+        font-size: 28px;
+      }
+
+      .contact_us_green .text-blk.contactus-subhead {
+        font-size: 16px;
+      }
+
+      .contact_us_green .submit-btn {
+        font-size: 16px;
+        height: 45px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container contact_us_green">
+    <p class="text-blk contactus-head">Contact us</p>
+      <p class="text-blk contactus-subhead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+      </p>
+    <div style="display: flex;">
+      
+      <form>
+        <input type="text" name="FirstName" placeholder="First Name">
+        <input type="text" name="LastName" placeholder="Last Name">
+        <input type="email" name="Email" placeholder="Email">
+        <input type="tel" name="PhoneNumber" placeholder="Phone Number">
+        <textarea name="Query" placeholder="What do you have in mind?"></textarea>
+        <button class="submit-btn" type="submit">Submit</button>
+      </form>
+      <div class="contact-info">
+        <p><img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET21.jpg" alt="Phone"> +1258 3258 5679</p>
+        <p><img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET22.jpg" alt="Email"> hello@workik.com</p>
+        <p><img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET23.jpg" alt="Address"> 102 street, y cross 485656</p>
+        <div class="social-media-links">
+          <a href="#"><img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg" alt="Mail"></a>
+          <a href="#"><img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt="Instagram"></a>
+          <a href="#"><img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg" alt="Facebook"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
